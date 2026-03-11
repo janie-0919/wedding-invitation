@@ -1,0 +1,98 @@
+/* s common */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  color: $black;
+  background-color: $bg;
+  min-height: 100dvh;
+
+
+  @supports (-webkit-touch-callout: none) {
+    min-height: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 1280px) {
+  body {
+    touch-action: pan-y;
+  }
+}
+
+em, i {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, button {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+body.scrOff {
+  overflow: hidden;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
+.align-center {
+  text-align: center !important;
+}
+
+.color-point {
+  color: $point !important;
+}
+
+.color-blue {
+  color: $blue !important;
+}
+
+.font-weight-bold {
+  font-weight: bold !important;
+}
+
+.font-en {
+  font-family: $font2;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* e common */

@@ -1,0 +1,28 @@
+/* s fonts */
+@font-face {
+  font-family: 'continuous';
+  src: url('../assets/fonts/continuous/continuous.woff2') format('woff2'),
+  url('../assets/fonts/continuous/continuous.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('../assets/fonts/Cafe24Oneprettynight/Cafe24Oneprettynight.woff2') format('woff2'),
+  url('../assets/fonts/Cafe24Oneprettynight/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mynerve Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Hurricane Regular'),
+  url('../assets/fonts/Mynerve/Mynerve-Regular.woff2') format('woff2'),
+  url('../assets/fonts/Mynerve/Mynerve-Regular.woff') format('woff');
+}
+/* e fonts */
