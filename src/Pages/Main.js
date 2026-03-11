@@ -112,7 +112,7 @@ function Main() {
         AOS.init();
     })
 
-    const [devtoolsOpen, setDevtoolsOpen] = useState(false);
+
 
     // GA section 추적
     function useSectionAnalytics({ enabled = true, threshold = 0.5 } = {}) {
@@ -196,8 +196,9 @@ function Main() {
                 flush();
                 document.removeEventListener('visibilitychange', onVis);
                 window.removeEventListener('pagehide', flush);
-                if (stateRef.current.io) {
-                    stateRef.current.io.disconnect();
+                const io = stateRef.current.io;
+                if (io) {
+                    io.disconnect();
                     stateRef.current.io = null;
                 }
                 stateRef.current.seen.clear();
