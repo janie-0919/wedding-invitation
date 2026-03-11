@@ -1,13 +1,12 @@
 # 💍 웨딩 청첩장 웹앱
 
 모바일 청첩장 웹 애플리케이션입니다.
-실제 결혼식에 사용했던 프로젝트를 포트폴리오용으로 재구성했습니다.
 
 ---
 
 ## 🔗 링크
 
-- **배포 URL**: 추후 업데이트 예정
+- **배포 URL**: https://wedding-invitation-v.vercel.app/
 - **GitHub**: https://github.com/janie-0919/wedding-invitation
 
 ---
