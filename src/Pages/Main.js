@@ -591,16 +591,15 @@ function Main() {
                         <div className="content">
                             <div className="share" id="share" data-section="share" data-section-name="공유">
                                 <KakaoShareButton/>
-                                <a
+                                <button
                                     className="btn btn-secondary btn-lg with-icon"
-                                    onClick={(e) => {
-                                        e.preventDefault();
+                                    onClick={() => {
                                         gaEvent('click_copy_url', { event_label: 'share_copy', locale: 'ko', page: '/' })
                                         copyCurrentUrl();
                                     }}
                                 >
                                     <i className="ico ico-copy"></i><span>청첩장 주소 복사하기</span>
-                                </a>
+                                </button>
                             </div>
                         </div>
 
